@@ -3,9 +3,9 @@
 Find a location which would be suitable for a successful new coffee shop. Compare variables such as population and population growth, and locations of currently established coffee shops. The area considered will be the DC Metro area.
 
 #### Data science Hypothesis(es)/solutions considering: One or multiple angles to consider solving this problem with data science  
-- Population growth rate
-- Average age of the population
-- Other coffee shop locations
+- Analyze population growth rate by county within the DC metro area to find which areas are growing most rapidly.
+- Find the average age of the population
+- Using yelp dataset, map locations of coffee shops in DC metro area, and find an area w/ need for a new coffee shop
 
 #### Data sets to be used: Share the links and files, .csvs, .js, .xlsx, .txt, website URLs
 - [Yelp Dataset](https://www.yelp.com/dataset)
