@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Park <= 0.5\ngini = 0.197\nsamples = 17437\nvalue = [15507, 1930]"] ;
+1 [label="Gym <= 0.5\ngini = 0.19\nsamples = 16683\nvalue = [14912, 1771]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Sandwich Place <= 0.5\ngini = 0.183\nsamples = 15854\nvalue = [14235, 1619]"] ;
+1 -> 2 ;
+3 [label="gini = 0.179\nsamples = 15269\nvalue = [13752, 1517]"] ;
+2 -> 3 ;
+4 [label="gini = 0.288\nsamples = 585\nvalue = [483, 102]"] ;
+2 -> 4 ;
+5 [label="Subway <= 0.5\ngini = 0.299\nsamples = 829\nvalue = [677, 152]"] ;
+1 -> 5 ;
+6 [label="gini = 0.287\nsamples = 770\nvalue = [636, 134]"] ;
+5 -> 6 ;
+7 [label="gini = 0.424\nsamples = 59\nvalue = [41, 18]"] ;
+5 -> 7 ;
+8 [label="Subway <= 0.5\ngini = 0.333\nsamples = 754\nvalue = [595, 159]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Train Station <= 0.5\ngini = 0.283\nsamples = 620\nvalue = [514, 106]"] ;
+8 -> 9 ;
+10 [label="gini = 0.267\nsamples = 579\nvalue = [487, 92]"] ;
+9 -> 10 ;
+11 [label="gini = 0.45\nsamples = 41\nvalue = [27, 14]"] ;
+9 -> 11 ;
+12 [label="Sandwich Place <= 0.5\ngini = 0.478\nsamples = 134\nvalue = [81, 53]"] ;
+8 -> 12 ;
+13 [label="gini = 0.431\nsamples = 105\nvalue = [72, 33]"] ;
+12 -> 13 ;
+14 [label="gini = 0.428\nsamples = 29\nvalue = [9, 20]"] ;
+12 -> 14 ;
+}
